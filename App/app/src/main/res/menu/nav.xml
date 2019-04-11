@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_badges"
+            android:title="@string/nav_badges"
+            android:icon="@drawable/ic_explore"/>
+
+        <item
+            android:id="@+id/nav_checkin_checkout"
+            android:title="@string/nav_check_in_check_out"
+            android:icon="@drawable/ic_camera"
+            />
+        <item
+            android:id="@+id/nav_stands"
+            android:title="@string/nav_stands"
+            android:icon="@drawable/ic_assistant"/>
+    </group>
+
+</menu>

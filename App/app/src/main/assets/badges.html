@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Night of The Nerds - Badges</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery_3.3.1.min.js"></script>
+    <script type="text/javascript">
+
+    $(document).ready(function(){
+      var arrowno = 0;
+      function drawArrows() {
+        if (arrowno < 30){
+          arrowno++;
+          var newArr = $("#sideline #arrows").last().clone().insertBefore($('#sideline #arrows').last());
+          if (newArr.index("svg") % 2 === 1)
+          {
+            newArr.css("opacity", "0.5");
+          }
+          setTimeout(drawArrows, 50);
+        }
+      }
+      drawArrows();
+
+      // var acc = 3;
+      // $(document).on("click", ".gained", function(){
+      //   $(this).css({animation: 'spin ' + acc + 's linear infinite'});
+      //   if (acc == 0)
+      //   alert('Easter egg!!!!');
+      //   acc-= 2;
+      // });
+
+      // $(".badge").on("touchend", function(){
+      //   $(this).addClass("gained");
+      // });
+
+
+      if(typeof badgeList !== 'undefined') {
+
+        for(var i = 0; i < badgeList.size(); i++)
+        {
+
+          var badgeObj = badgeList.get(i);
+          var image = $("#" + badgeObj.getBadgeID());
+          if(badgeObj.isBadgeEnable()) {
+          
+            image.addClass("gained");
+          }
+        }
+      }
+
+      console.log("dead");
+            if(typeof badgeClick !== 'undefined') {
+              console.log("Badge click is defined");
+              $(".badge").on("touchend", function(){
+                console.log("badge touched");
+               if(!$(this).hasClass("gained")) {
+                 console.log("badge has class");
+                 badgeClick.changeFragment();
+               }
+              });
+            }
+
+      });
+
+    </script>
+    <style media="screen">
+      @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+      @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+      @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+      :root {
+        --badge-size: 23%;
+        --purplec: #ab40d0;
+        --bluec: #0040d1;
+        --libluec: #00dcff;
+        --greenc: #33ff33;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body, html {
+        background: #333333;
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        margin: 0;
+      }
+      #sideline {
+        position: absolute;
+        left: -17px;
+        height: 98%;
+        display: flex;
+        justify-content: flex-end;
+        flex-flow: column nowrap;
+      }
+      #probot {
+
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        height: 100%;
+        width: 100%;
+      }
+      .badge {
+        width: auto;
+        height: var(--badge-size);
+        margin: 1em;
+        filter: grayscale(1) opacity(.3);
+      }
+
+      .gained {
+        filter: none;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div id="sideline">
+      <svg id="arrows" height="20" width="30" style="stroke:rgb(255,255,255);stroke-width:2" >
+        <line x1="0" y1="12" x2="15" y2="0" />
+        <line x1="15" y1="0" x2="30" y2="12"/>
+      </svg>
+      <img id="probot" src="purplerobot.png" alt="Purple robot">
+    </div>
+    <div class="container">
+      <img class="badge" id="1" src="badge1_s.png" alt="badge-1">
+      <img class="badge" id="2" src="badge2_s.png" alt="badge-2">
+      <img class="badge" id="3" src="badge3_s.png" alt="badge-3">
+      <img class="badge" id="4" src="badge4_s.png" alt="badge-4">
+      <img class="badge" id="5" src="badge5_s.png" alt="badge-5">
+
+    </div>
+  </body>
+</html>

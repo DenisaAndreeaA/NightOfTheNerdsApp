@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">NightOfTheNerds</string>
+
+    <string name="route_top_text">Choose your route!</string>
+    <string name="stand_top_text">Pick the next stand!</string>
+    <string name="badge_received"> &lt; you achieved a new badge &gt; </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_check_in_check_out">Check in check out</string>
+    <string name="nav_badges">Badges</string>
+    <string name="nav_stands">Stands</string>
+    <string name="nav_battle">Battle</string>
+    <string name="nav_pathfinder">Pathfinder</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_badge">BadgeActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="FragmentRoute">Here are your Route Badges!</string>
+    <string name="FragmentOther">Here is a list with all your Badges!</string>
+
+    <!-- Society Route Strings -->
+    <string name="info_preciousplastic">
+        Precious Plastic TU/e is een groep van vijf studenten die
+        willen leren mooie ideeën werkelijkheid te maken. Met het uiteindelijke resultaat stimuleren
+        zij andere studenten hetzelfde te doen door een extra werkplaats aan te bieden.
+        In de plastic recycle werkplaats worden workshops gegeven om anderen leren te werken
+        met plastic en de machines. Twee middagen in de week is de werkplaats open.
+    </string>
+    <string name="info_emotionwisperer">
+        Geen informatie over deze stand beschikbaar.
+    </string>
+    <string name="info_futurefood">
+        Neem een kijkje in de toekomst met Future Food Formula.
+        Je kruipt in de huid van een hightech boer die gepersonaliseerde groente ontwerpt.
+        Groeiomstandigheden zoals water, de hoeveelheid kleur en licht en pH-waarde bepalen
+        de smaak, kleur, grootte en voedingswaarde van groenten.
+    </string>
+    <string name="info_foodgame">Hoe ziet de toekomst van ons eten eruit? Wat ligt er op je bord
+        en hoe komt eten eigenlijk bij je thuis? Om deze vragen te beantwoorden is de Foodgame
+        bedacht en ontwikkeld. In de Foodgame worden drie toekomstscenario’s van
+        voedselsituaties spelenderwijs aan je uitgelegd en weet je na het spelen welk
+        toekomstscenario het beste bij jou past.
+    </string>
+
+    <!-- Additional Route Strings -->
+    <string name="info_kunnenweditmaken">
+        SETUP heeft een Limonade-apparaat gemaakt dat je laat zien
+        wat data-discriminatie betekent. Je krijgt een glaasje limonade door de cijfers van
+        jouw postcode in te voeren. Het limonade-apparaat bepaalt op basis van de ‘status score’ van
+        jouw postcode of je een lekker of een slap glaasje limonade krijgt.
+        Hoe lager je wijk scoort volgens de database van de machine, hoe smaaklozer je limonade wordt.
+        Hoe scoort jouw wijk en hoe krijg je jouw persoonlijke glaasje geserveerd?
+    </string>
+    <string name="info_meubelAR">
+        Hoe staat dat bureau of die lamp in jouw kamer? De nieuwe IKEA app
+        Place toont producten die je in de winkel kunt kopen in het camerabeeld van je iPhone.
+        Het is een van de eerste apps die gebruikmaakt van Apples nieuwe AR Kit-systeem voor
+        augmented reality. Handig om te gebruiken voordat je iets gaat kopen!
+    </string>
+    <string name="info_refubyshment">
+        Geef beschadigde gepensioneerde Furby’s uit 1998 een nieuw leven,
+        zodat ze kunnen genieten van een welverdiend pensioen in het Furby bejaardenhuis.
+        Edwin Dertien leert je in (doorlopende) workshop hoe je met techniek en elektronica
+        (met onder andere Intel GALILEO boards) de Furby’s weer laat communiceren.
+    </string>
+    <string name="info_gamesUXlab">
+        In de vijf units van het Fontys Game-Lab test je samen met
+        de makers de nieuwste games, apps en controllers, en laten we zien wat het met je doet.
+        We testen met camera’s, computers, mobiele telefoons en
+        de allernieuwste technieken van bijvoorbeeld gezichtsherkenning en eyetracking.
+    </string>
+
+    <!-- Creative Route Strings -->
+    <string name="info_dansenanimatie">
+        Stijn Goossens van AKV St Joost combineert passie voor dans
+        en animatie. Hoe doet hij dat? Stijn danst hiervoor in een motion capture pak.
+        Tijdens het dansen bedenkt hij de 3D animaties die hij later gaat toevoegen.
+        Dit vormt de basis voor de uiteindelijke animaties.
+    </string>
+    <string name="info_virtuelemode">
+        Zodra de AR bril een betaalbaar massaproduct en
+        iedereen een AR bril kan dragen, gaat er een wereld ontstaan waarin virtuele en fysieke
+        elementen zijn gemixt. Virtuele elementen horen dan gewoon bij de werkelijkheid.
+        Een ontwerp kan dan ook alleen in AR bestaan. Wat zou dat voor ons als consument en
+        bijvoorbeeld voor de mode-industrie betekenen?
+    </string>
+    <string name="info_heybracelet">
+        Holding your loved ones is one of the most intimate ways of
+        expressing affection. With increasing globalisation, distance can sometimes make this
+        impossible. This led House of Haptics and VanBerlo to co-design the Hey bracelet,
+        a wearable device that Connects lovers the world over.
+    </string>
+    <string name="info_smellofdata">
+        Smell of Data is een ludiek waarschuwingsmechanisme waarmee je
+        datalekken leert herkennen en aanpakken. Daardoor word je meer bewust van het gevaar van
+        datalekken. Datalekken en identiteitsfraude zijn een groeiend probleem. Smell of Data maakt
+        datalekken ‘tastbaar’ door er een geur aan te verbinden. Er is een nieuwe geur ontwikkeld
+        die wordt afgegeven zodra persoonlijke data worden gelekt.
+    </string>
+
+    <!-- Tech Route Strings -->
+    <string name="info_racebolideURE">
+        In URE werken 70 getalenteerde studenten in een multidisciplinair team samen.
+        Doel is om elk studiejaar een elektrische racebolide te ontwerpen, bouwen en testen en,
+        natuurlijk, deelnemen aan de grootste internationale ontwerpcompetitie voor technische studenten.
+    </string>
+    <string name="info_cybersecuirity">Hacks zijn de laatste tijd een grote bedreiging.
+        Niet alleen bedrijven maar ook voor jou als persoon. Ben jij bewust van de risico’s op
+        een openbaar netwerk, zoals bij McDonalds of de in de trein bij NS.
+        Kevin, Daphne, Kheir en Brice van Fontys leggen je van alles uit over deze specialisatie van
+        Fontys!
+    </string>
+    <string name="info_robotpi">Het robotica Team π is in 2016 opgericht door enthousiaste en
+        gemotiveerde Mechatronic studenten van Hogeschool Fontys, Eindhoven. Zij hebben
+        robot Primus ontwikkeld. Primus doet mee met de internationale wedstrijden van de
+        FIRST Robotics Competition (FRC).\n
+        \n
+        Kom kennismaken met prinses Estelle! Estelle is een eenarmige robot die saai werk overneemt
+        van mensen. Estelle is de ‘collega’ van drie software testers bij Here in Eindhoven.
+    </string>
+    <string name="info_exoskelet">Project MARCH is een eigen stichting dat als doel heeft om
+        jaarlijks een exoskelet te ontwerpen en te bouwen voor dwarslaesiepatiënten. Het exoskelet
+        wordt gebouwd door studenten van de Technische Universiteit Delft.
+    </string>
+
+    <string name="QrscanButton">Scan</string>
+
+    <string name="TextPlaceHolder">Place text</string>
+    <string name="TimerButton">Scan</string>
+</resources>

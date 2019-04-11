@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- primary colors -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="whiteText">#e5e5e5</color>
+    <!-- -->
+
+    <!-- choose route -->
+    <color name="chooseRoute">#343233</color>
+    <!-- for testing -->
+    <color name="route1Background">#FFA845D3</color>
+    <color name="route2Background">#FF00DFF8</color>
+    <color name="route3Background">#FF083FD3</color>
+    <color name="route4Background">#FF2AFF32</color>
+    <!-- -->
+    <!-- -->
+    <color name="bgStandOddTitle">#5f6460</color>
+    <!-- choose stand -->
+    <color name="chooseStand">#454949</color>
+    <color name="standView">#333333</color>
+
+    <!-- for testing -->
+    <color name="stand1Background">#FFA845D3</color>
+    <color name="stand2Background">#FF00DFF8</color>
+    <color name="stand3Background">#FF083FD3</color>
+    <color name="stand4Background">#FF2AFF32</color>
+    <!-- -->
+    <!-- -->
+
+    <!-- login activiy -->
+    <color name="loginBackground">#ffffff</color>
+    <color name="loginHeader">#343233</color>
+    <!-- -->
+</resources>
